@@ -27,7 +27,7 @@ const ventures = [
     subtitle: "AI Travel Concierge",
     desc: "Luxury AI-powered travel concierge launching in the Dominican Republic. QR-code first, no download required.",
     tag: "TECH",
-    url: "https://travelplug.app",
+    url: "https://www.travelplug.app",
   },
   {
     icon: "🎵",
@@ -308,7 +308,7 @@ export default function WatsonLegacyGroup() {
       {/* WHO WE ARE */}
       <section id="who" style={{ padding: "100px 24px", maxWidth: 1000, margin: "0 auto" }}>
         <FadeIn>
-          <div style={{ fontSize: 10, letterSpacing: 6, color: "#1A1A1A", fontFamily: "sans-serif", marginBottom: 16, fontWeight: 700 }}>01 — WHO WE ARE</div>
+          <div style={{ fontSize: 10, letterSpacing: 6, color: GOLD, fontFamily: "sans-serif", marginBottom: 16 }}>01 — WHO WE ARE</div>
           <h2 style={{ fontSize: "clamp(36px, 5vw, 64px)", fontWeight: "normal", margin: "0 0 32px", lineHeight: 1.1, color: "#D4B860" }}>
             A New Class of<br /><span style={{ color: GOLD, fontStyle: "italic" }}>Apex Leaders</span>
           </h2>
@@ -384,7 +384,7 @@ export default function WatsonLegacyGroup() {
       {/* VENTURES */}
       <section id="ventures" style={{ padding: "100px 24px", maxWidth: 1200, margin: "0 auto" }}>
         <FadeIn>
-          <div style={{ fontSize: 10, letterSpacing: 6, color: "#1A1A1A", fontFamily: "sans-serif", marginBottom: 16, fontWeight: 700 }}>03 — OUR VENTURES</div>
+          <div style={{ fontSize: 10, letterSpacing: 6, color: GOLD, fontFamily: "sans-serif", marginBottom: 16 }}>03 — OUR VENTURES</div>
           <h2 style={{ fontSize: "clamp(32px, 5vw, 60px)", fontWeight: "normal", margin: "0 0 16px", color: "#D4B860" }}>
             The <span style={{ color: GOLD, fontStyle: "italic" }}>Empire</span>
           </h2>
@@ -453,7 +453,7 @@ export default function WatsonLegacyGroup() {
       {/* BOOKS & PLATFORMS */}
       <section id="books" style={{ padding: "100px 24px", maxWidth: 1200, margin: "0 auto" }}>
         <FadeIn>
-          <div style={{ fontSize: 10, letterSpacing: 6, color: "#1A1A1A", fontFamily: "sans-serif", marginBottom: 16, fontWeight: 700 }}>05 — BOOKS, COURSES & MORE</div>
+          <div style={{ fontSize: 10, letterSpacing: 6, color: GOLD, fontFamily: "sans-serif", marginBottom: 16 }}>05 — BOOKS, COURSES & MORE</div>
           <h2 style={{ fontSize: "clamp(32px, 5vw, 60px)", fontWeight: "normal", margin: "0 0 16px", color: "#D4B860" }}>
             The <span style={{ color: GOLD, fontStyle: "italic" }}>Blueprint</span><br />Is Everywhere
           </h2>
