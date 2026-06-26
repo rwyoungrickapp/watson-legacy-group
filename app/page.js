@@ -189,6 +189,9 @@ export default function WatsonLegacyGroup() {
                 {link.label}
               </button>
             ))}
+            <a href="/legacy-ai"
+              style={{ textDecoration: "none", color: BLACK, background: `linear-gradient(90deg, ${GOLD}, ${GOLD_LIGHT})`, fontSize: 11, letterSpacing: 2, fontFamily: "sans-serif", textTransform: "uppercase", padding: "7px 14px", borderRadius: 8, fontWeight: 700, whiteSpace: "nowrap" }}
+            >Legacy AI</a>
           </div>
 
           {/* Mobile hamburger */}
@@ -208,6 +211,9 @@ export default function WatsonLegacyGroup() {
               style={{ background: "none", border: "none", color: "#E8E0D0", fontSize: 22, letterSpacing: 4, cursor: "pointer", fontFamily: "Georgia, serif", textTransform: "uppercase" }}
             >{link.label}</button>
           ))}
+          <a href="/legacy-ai" onClick={() => setMenuOpen(false)}
+            style={{ textDecoration: "none", color: BLACK, background: `linear-gradient(90deg, ${GOLD}, ${GOLD_LIGHT})`, fontSize: 20, letterSpacing: 3, fontFamily: "Georgia, serif", textTransform: "uppercase", padding: "10px 22px", borderRadius: 10, fontWeight: 700 }}
+          >Legacy AI</a>
         </div>
       )}
 
