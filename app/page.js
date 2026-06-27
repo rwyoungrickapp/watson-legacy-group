@@ -18,6 +18,7 @@ const navLinks = [
   { label: "Music", href: "#music" },
   { label: "Books", href: "#books" },
   { label: "Contact", href: "#contact" },
+  { label: "🎬 Become a Creator", href: "https://travelplug.app/share" },
 ];
 
 const ventures = [
@@ -59,7 +60,7 @@ const ventures = [
     subtitle: "Global Creator Plug",
     desc: "WLG's elite creator pipeline spanning six global markets. AI-powered, system-run, zero friction.",
     tag: "NETWORK",
-    url: "#contact",
+    url: "https://travelplug.app/share",
   },
   {
     icon: "🎪",
