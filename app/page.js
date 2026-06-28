@@ -31,6 +31,14 @@ const ventures = [
     url: "https://www.travelplug.app",
   },
   {
+    icon: "⚡",
+    title: "OneClickGen",
+    subtitle: "AI Campaign Engine",
+    desc: "Private done-for-you content engine. One idea in, a full multi-platform campaign out. Application-only, limited seats.",
+    tag: "TECH",
+    url: "https://oneclickgen.app",
+  },
+  {
     icon: "🎵",
     title: "WLG Music",
     subtitle: "Ya Boy Rick",
